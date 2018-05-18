@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Lamp from './lamp';
+import Lamp from './Glamp';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +17,10 @@ class App extends Component {
             },
             1000
         );
+    }
+
+    berp(){
+
     }
 
   render() {

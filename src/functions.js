@@ -47,3 +47,13 @@
        );
    };
    export default Lamp
+
+
+
+   lightness(px, count){
+       if (count < 5) {
+           px = (px * count);
+           console.log(px, count);
+           return px
+       }
+   }
